@@ -1,6 +1,6 @@
 import inquirer from 'inquirer';
 import fs from 'fs';
-import generateMarkdown from './generateMarkdown.js'; // Import your generateMarkdown function
+import generateMarkdown from './utils/generateMarkdown.js'; // Import your generateMarkdown function
 
 const questions = [
   {
